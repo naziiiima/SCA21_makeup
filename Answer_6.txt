@@ -1,0 +1,12 @@
+GIT LOG It shows a list of all completed commits sorted by the date of addition (the most recent on top)
+The git log command has a useful flag -p, which immediately outputs the dif for each commit
+
+
+Git Show
+Each commit has an identifier (they say "hash"), a unique set of characters. Using a hash, you can view all the changes made within a single commit
+"hash" is first 8 symbols
+ 
+Git blame
+This command outputs a file and next to each line shows who changed it and in which commit.
+
+The git grep command looks for a match with the specified string in all project files. This is a very convenient command for quick analysis from the terminal. It is more convenient than the usual grep, since it knows about ignoring and does not look into the directory.git, and also knows how to search through history
